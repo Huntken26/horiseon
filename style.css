@@ -50,14 +50,17 @@ p {
     font-size: 16px;
 }
 
+/* Changed the height, width of the hero class. Added the image url.*/
+
 .hero {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -195,6 +198,9 @@ p {
     text-align: center;
 }
 
+/*I made the footer content hidden since in the example picture there are no words at the bottom*/
+
 .footer h2 {
+    display: none;
     font-size: 20px;
 }
