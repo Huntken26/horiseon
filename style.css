@@ -7,8 +7,9 @@
 body {
     background-color: #d9dcd6;
 }
+/* Specified this selector as nav*/
 
-.header {
+nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,9 +21,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+
 
 .header div {
     padding-top: 15px;
@@ -31,10 +30,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
-}
+/* Consolidating the header css selectors*/
 
 .header div ul li {
     display: inline-block;
@@ -76,6 +72,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
@@ -87,6 +84,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 .benefit-lead {
@@ -176,17 +174,9 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Consolidated the h2 elements*/
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <nav class="header">
+        <!--Got rid of the <span> to fix the h1 tag.-->
+        <h1>Horiseon</h1>
         <div>
             <ul>
                 <li>
@@ -24,9 +25,10 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </nav>
     <div class="hero"></div>
-    <div class="content">
+    <!-- Changed the larger div elements into sections-->
+    <section class="content">
         <!--Added in the id, img src and alt accessibility.-->
         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="search-engine-optimization.jpg" class="float-left"
@@ -60,9 +62,9 @@
                 increase your lead generation.
             </p>
         </div>
-    </div>
+    </section>
     <!--Added in the img src and alt accessibility.-->
-    <div class="benefits">
+    <section class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="lead-generation.png" alt="A lightbulb with a dollor sign at the bottom." />
@@ -89,13 +91,12 @@
                 need to advertise your page.
             </p>
         </div>
-    </div>
+    </section>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
-        <!-- Hid this paragraph since the mockup doesn't have this section <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p> -- !>
+
     </div>
+   
 </body>
 
 </html>
